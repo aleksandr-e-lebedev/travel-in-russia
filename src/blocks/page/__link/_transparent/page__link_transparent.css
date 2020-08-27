@@ -1,0 +1,10 @@
+.page__link_transparent {
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.page__link_transparent:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,19 @@
+.header__lang-switcher {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__lang-switcher {
+    transform: translate(0, -7px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-switcher {
+    transform: translate(0, -5px);
+  }
+}

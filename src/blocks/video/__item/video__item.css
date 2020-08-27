@@ -1,0 +1,28 @@
+.video__item {
+  width: calc((100% - 16px) / 2);
+  position: relative;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  .video__item {
+    width: calc((100% - 14px) / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__item {
+    width: 100%;
+    margin-top: 1.88vw;
+  }
+
+  .video__item:first-of-type {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__item {
+    margin-top: 8px;
+  }
+}

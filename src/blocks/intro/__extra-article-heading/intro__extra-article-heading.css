@@ -1,0 +1,16 @@
+.intro__extra-article-heading {
+  display: inline-block;
+  margin: 0;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__extra-article-heading {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}

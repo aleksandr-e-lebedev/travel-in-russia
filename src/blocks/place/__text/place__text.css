@@ -1,0 +1,23 @@
+.place__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__text {
+    transform: translate(0, -6px);
+
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__text {
+    margin-top: 24px;
+
+    transform: none;
+  }
+}

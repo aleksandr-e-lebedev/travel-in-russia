@@ -1,0 +1,28 @@
+.page__section {
+  padding-right: 48px;
+  padding-left: 48px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+  .page__section {
+    width: 1184px;
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .page__section {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .page__section {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+}

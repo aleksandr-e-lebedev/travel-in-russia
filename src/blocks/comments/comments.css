@@ -1,0 +1,11 @@
+.comments {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+  .comments {
+    padding-top: 40px;
+  }
+}

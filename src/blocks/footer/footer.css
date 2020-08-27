@@ -1,0 +1,24 @@
+.footer {
+  padding-top: 160px;
+  padding-bottom: 50px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    padding-top: 64px;
+    display: block;
+  }
+}

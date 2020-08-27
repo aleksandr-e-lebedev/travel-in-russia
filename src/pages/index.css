@@ -1,0 +1,90 @@
+@import url(../fonts/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__section/page__section.css);
+@import url(../blocks/page/__section-title/page__section-title.css);
+@import url(../blocks/page/__section-subtitle/page__section-subtitle.css);
+@import url(../blocks/page/__wrapper/page__wrapper.css);
+@import url(../blocks/page/__lead-image/page__lead-image.css);
+@import url(../blocks/page/__item-title/page__item-title.css);
+@import url(../blocks/page/__item-subtitle/page__item-subtitle.css);
+@import url(../blocks/page/__text/page__text.css);
+@import url(../blocks/page/__link/page__link.css);
+@import url(../blocks/page/__link/_transparent/page__link_transparent.css);
+@import url(../blocks/page/__cover/page__cover.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-switcher/header__lang-switcher.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_lang-accent/header__link_lang-accent.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__extra-articles/intro__extra-articles.css);
+@import url(../blocks/intro/__extra-article-heading/intro__extra-article-heading.css);
+@import url(../blocks/intro/__extra-article-text/intro__extra-article-text.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/places/__place/places__place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/place/__url-heading/place__url-heading.css);
+@import url(../blocks/place/__url/place__url.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__next-line-clause/place__next-line-clause.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/content-title/content-title.css);
+@import url(../blocks/content-subtitle/content-subtitle.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__subtitle/video__subtitle.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__item/video__item.css);
+@import url(../blocks/video/__figure/video__figure.css);
+@import url(../blocks/video/__label/video__label.css);
+@import url(../blocks/video/__icon/video__icon.css);
+@import url(../blocks/video/__icon/_type/_play/video__icon_type_play.css);
+@import url(../blocks/video/__duration/video__duration.css);
+@import url(../blocks/video/__item-title/video__item-title.css);
+@import url(../blocks/video/__item-subtitle/video__item-subtitle.css);
+@import url(../blocks/video/__frame/video__frame.css);
+
+@import url(../blocks/comments/comments.css);
+@import url(../blocks/comments/__title/comments__title.css);
+@import url(../blocks/comments/__subtitle/comments__subtitle.css);
+@import url(../blocks/comments/__container/comments__container.css);
+@import url(../blocks/comment/comment.css);
+@import url(../blocks/comment/__image/comment__image.css);
+@import url(../blocks/comment/__quote/comment__quote.css);
+@import url(../blocks/comment/__author/comment__author.css);
+@import url(../blocks/comments/__comment/comments__comment.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__wrapper/cover__wrapper.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__label/cover__label.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__next-line-clause/cover__next-line-clause.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

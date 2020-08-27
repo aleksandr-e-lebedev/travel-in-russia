@@ -1,0 +1,24 @@
+.comments__subtitle {
+  width: 100%;
+  max-width: 640px;
+  margin: 48px auto 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .comments__subtitle {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments__subtitle {
+    margin-top: 3.76vw;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .comments__subtitle {
+    max-width: 340px;
+    margin-top: 16px;
+  }
+}

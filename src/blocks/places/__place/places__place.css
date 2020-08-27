@@ -1,0 +1,13 @@
+.places__place {
+  margin-top: 72px;
+}
+
+.places__place:first-of-type {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .places__place {
+    margin-top: 48px;
+  }
+}

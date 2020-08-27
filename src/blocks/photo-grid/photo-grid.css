@@ -1,0 +1,28 @@
+.photo-grid {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    display: block;
+  }
+}

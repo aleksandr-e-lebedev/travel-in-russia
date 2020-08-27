@@ -1,0 +1,27 @@
+{
+  "name": "travel-in-russia",
+  "version": "1.0.0",
+  "description": "Website created with HTML and CSS",
+  "main": "src/index.html",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleksandr-e-lebedev/travel-in-russia.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS"
+  ],
+  "author": "Aleksandr Lebedev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleksandr-e-lebedev/travel-in-russia/issues"
+  },
+  "homepage": "https://github.com/aleksandr-e-lebedev/travel-in-russia#readme",
+  "devDependencies": {
+    "gh-pages": "3.1.0",
+    "prettier": "2.1.1"
+  }
+}

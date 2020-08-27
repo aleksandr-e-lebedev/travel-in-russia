@@ -1,0 +1,8 @@
+@media screen and (min-width: 1080px) {
+  .page__wrapper {
+    width: 984px;
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}

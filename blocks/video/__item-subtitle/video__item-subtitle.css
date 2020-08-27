@@ -1,0 +1,26 @@
+.video__item-subtitle {
+  margin: 8px 0 0;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .video__item-subtitle {
+    margin-top: 0.94vw;
+
+    font-size: 3.29vw;
+    line-height: 1.07;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .video__item-subtitle {
+    margin-top: 4px;
+
+    font-size: 14px;
+    line-height: 15px;
+  }
+}

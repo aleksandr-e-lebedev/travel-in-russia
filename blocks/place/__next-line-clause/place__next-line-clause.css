@@ -1,0 +1,6 @@
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .place__next-line-clause::before {
+    content: '\A';
+    white-space: pre;
+  }
+}

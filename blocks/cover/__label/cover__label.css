@@ -1,0 +1,34 @@
+.cover__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 63%;
+
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1184px) {
+  .cover__label {
+    height: 53%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__label {
+    height: 69%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__label {
+    height: 37.6vw;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .cover__label {
+    height: 40vw;
+  }
+}

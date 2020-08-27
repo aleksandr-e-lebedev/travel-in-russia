@@ -1,0 +1,17 @@
+.lead__image {
+  padding-bottom: calc(100vw - 50%);
+  background-image: url(polka.jpg);
+  background-size: cover;
+}
+
+@media screen and (min-width: 2560px) {
+  .lead__image {
+    background-image: url(polka-x2.jpg);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .lead__image {
+    padding-bottom: calc(50% + 62px);
+  }
+}

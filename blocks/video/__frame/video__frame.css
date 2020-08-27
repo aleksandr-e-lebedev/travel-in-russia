@@ -1,0 +1,5 @@
+.video__frame {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
